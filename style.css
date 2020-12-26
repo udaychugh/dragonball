@@ -1,0 +1,97 @@
+/*----------------------------
+        Color Theme
+
+1. Orange color : #F85B1A;
+2. Blue Color : #072083;
+3. skin color : #FFD7C1;
+4. dark skin color : #E59982;
+5. black color : #000000;
+6. grey color : #8A9294;
+https://www.schemecolor.com/goku-dragon-ball-z-cartoon-colors.php
+----------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(img/main_wall.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+h1, h2, h3{
+    font-family: 'Bangers', cursive;
+}
+
+p, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.nav-bar{
+    padding: 20px;
+}
+
+.nav-bar h1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 42px;
+}
+
+.nav-bar ul{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-bar ul li{
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nav-bar ul li a:hover{
+    color: #F85B1A;
+}
+
+/*--------- common ends here ------------ */
+
+.about{
+    background-color: #FFD7C1;
+    margin: 40px 100px;
+    padding: 30px;
+    opacity: 0.8;
+    color: black;
+    text-align: justify;
+}
+
+.about p{
+    font-size: 24px;
+    opacity: 1;
+}
